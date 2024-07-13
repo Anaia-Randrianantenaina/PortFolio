@@ -3,6 +3,7 @@ import React from "react";
 const Social = () => {
     return (
         <div className="home__social">
+            {/* Home social */}
             <a href="https://www.linkedin.com/" className="home__social-icon" target="_blank">
             <i class='bx bxl-linkedin'></i>
             </a>
@@ -15,6 +16,7 @@ const Social = () => {
             <i class='bx bxl-gmail'></i>
             </a>
         </div>
+
     )
 }
 export default Social
