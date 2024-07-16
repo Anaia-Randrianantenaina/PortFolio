@@ -67,7 +67,7 @@ const Contact = () => {
                       {/* FORM DIV */}
                     <div className="contact__form-div">
                     <label htmlFor="" className="contact__form-tag">Mail</label>
-                    <input type="email" name="mail" className="contact__form-input" placeholder="Insérez votre nom"/>
+                    <input type="email" name="mail" className="contact__form-input" placeholder="Insérez votre Mail"/>
                     </div>
 
                       {/* FORM DIV */}
