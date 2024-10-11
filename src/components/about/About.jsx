@@ -17,7 +17,7 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">
-              En tant que développeur full-stack spécialisé en frontend et backend (REACT/PHP), et design UI/UX,
+              En tant que développeur full-stack spécialisé en frontend et backend (JS/PHP), et design UI/UX,
               je conçois et développe des interfaces attrayantes, des systèmes serveur robustes et des éxpériences utilisateur optimales
                 </p>
 

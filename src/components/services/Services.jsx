@@ -172,7 +172,7 @@ const Services = () => {
                            Développeur Backend
                         </h3>
                         <p className="services__modal-description">
-                           En tant que développeur backend spécialisé en php et laravel, je conçois et mets en oeuvre des solutions serveur robuste et sécurisées,
+                           En tant que développeur backend spécialisé en php et javascript, je conçois et mets en oeuvre des solutions serveur robuste et sécurisées,
                            en assurant la gestion des bases de données, l'authentification des utilisateurs et l'intégration d'API
                         </p>
 
