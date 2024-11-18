@@ -88,7 +88,7 @@ const Services = () => {
                 <div className="services__content">
                 <i class='bx bx-code services__icon '></i>
                     <h3 className="services_title">
-                       Développeur <br /> Frontend
+                       <br /> Frontend
                     </h3>
              
 
@@ -103,7 +103,7 @@ const Services = () => {
                     <i className="bx bx-x services__modal-close" onClick={() => toogleTab(0)}></i>
 
                         <h3 className="services__modal-title">
-                          Développeur Frontend
+                           Frontend
                         </h3>
                         <p className="services__modal-description">
                            En tant que développeur frontend, je crée des interaces utilisateur attrayantes et intuitives en utilisant RéactJS(NextJS)
@@ -154,7 +154,7 @@ const Services = () => {
                 <div className="services__content">
                       <i class='bx bxs-edit services__icon '></i>
                     <h3 className="services_title">
-                        Développeur <br /> Backend
+                     <br /> Backend
                     </h3>
              
 

@@ -20,7 +20,7 @@ const Qualification = () => {
                         onClick={() => toggleTab(1)}
                     >
                         <i className='bx bxs-graduation qualification__icon'></i>
-                        Education
+                         Exprience
                     </div>
 
                     <div
@@ -28,13 +28,13 @@ const Qualification = () => {
                         onClick={() => toggleTab(2)}
                     >
                         <i className='bx bx-briefcase qualification__icon'></i>
-                        Experience
+                        Education
                     </div>
                 </div>
 
                 <div className="qualification__sections">
                     {/* QUALIFICATION EDUCATION */}
-                    <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
+                    <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                          {/* QUALIFICATION DATA 1 */}
                         <div className="qualification__data">
                             <div>
@@ -103,13 +103,13 @@ const Qualification = () => {
 
 
                     {/* QUALIFICATION EXPERIENCE */}
-                    <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
+                    <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
 
                         {/* QUALIFICATION DATA 1 */}
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Développeur application web</h3>
-                                <span className="qualification__subtitle">EMIT Fianarantsoa (Stage)</span>
+                                <span className="qualification__subtitle">EMIT Fianarantsoa </span>
                                 <div className="qualification__calender">
                                     <i className='bx bx-calendar'></i> Juin 2024 - Présent
                                 </div>
@@ -130,7 +130,7 @@ const Qualification = () => {
                             </div>
                             <div>
                                 <h3 className="qualification__title">Développeur d'application web</h3>
-                                <span className="qualification__subtitle">Direction Régional des Impôts HM (Stage)</span>
+                                <span className="qualification__subtitle">Direction Régional des Impôts HM </span>
                                 <div className="qualification__calender">
                                     <i className='bx bx-calendar'></i> Juin 2023 - Août 2023
                                 </div>

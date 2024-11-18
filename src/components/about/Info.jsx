@@ -21,7 +21,7 @@ const Info = () => {
         <i class='bx bx-support about__icon'></i>
 
             <h3 className="about__title">Appuis</h3>
-            <span className="about__subtitle">En ligne 24/7</span>
+            <span className="about__subtitle">En ligne...</span>
         </div>
        </div>
     )

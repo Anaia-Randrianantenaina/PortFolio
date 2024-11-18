@@ -10,7 +10,7 @@ const Contact = () => {
            <div className="contact__container container grid">
             {/* CONTACT CONTENT */}
             <div className="contact__content">
-                <h3 className="contact__title">Parle-moi</h3>
+                {/* <h3 className="contact__title">Parle-moi</h3> */}
 
                 <div className="contact__info">
                     {/* CONTACT CARD */}

@@ -6,7 +6,7 @@ const ScrollDown = () => {
       
         <a href="#about" className="home__scroll-button button--flex">
         <i class='bx bx-mouse anaia__icon'></i>
-        <span className="home__scroll-name">Scroll Down</span>
+        <span className="home__scroll-name">Explorer</span>
         
         <i class='bx bxs-down-arrow-alt anaia__icon'></i>
 

@@ -8,11 +8,11 @@ const Data = () => {
         <h3 className="home__subtitle">--- Dévéloppeur ReactJS-PHP ---</h3>
 
         <p className="home__description">
-        Je suis Étudiant en informatique (DAII) à l'EMIT et Dévéloppeur Web PHP | ReactJS basé à Fianarantsoa, et je suis très passionné et dévoué à mes études et à mon travail.
+       Dévéloppeur Web PHP | React.js passionné et dévoué.
         </p>
 
         <a href="#contact" className="button button--flex">
-           Dites Bonjour  
+        Entrer en contact 
            <i class='bx bx-send send'></i>
         </a>
        </div>

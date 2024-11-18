@@ -1,9 +1,10 @@
 import React from "react";
 
-const Backend = () => {
+const Autre = () => {
     return (
+        <>
         <div className="skills__content">
-        <h3 className="skills__title">Backend</h3>
+        <h3 className="skills__title">Autres</h3>
 
         <div className="skills__box">
             <div className="skills__group">
@@ -11,8 +12,8 @@ const Backend = () => {
                     <i className="bx bx-badge-check"></i>
 
                    <div>
-                   <h3 className="skills__name">PHP</h3>
-                   <span className="skills__level">Avancés</span>
+                   <h3 className="skills__name">Git</h3>
+                   <span className="skills__level">Intermédiaire</span>
                    </div>
                 </div>
 
@@ -20,11 +21,11 @@ const Backend = () => {
                     <i className="bx bx-badge-check"></i>
 
                    <div>
-                   <h3 className="skills__name">Laravel</h3>
-                   <span className="skills__level">Avancés</span>
+                   <h3 className="skills__name">UML</h3>
+                   <span className="skills__level">Intermédiaire</span>
                    </div>
                 </div>
-
+{/* 
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
 
@@ -32,7 +33,7 @@ const Backend = () => {
                    <h3 className="skills__name">NodeJS</h3>
                    <span className="skills__level">Intermédiaire</span>
                    </div>
-                </div>
+                </div> */}
 
                 
             </div>
@@ -42,7 +43,7 @@ const Backend = () => {
                     <i className="bx bx-badge-check"></i>
 
                    <div>
-                   <h3 className="skills__name">MySQL</h3>
+                   <h3 className="skills__name">SQL</h3>
                    <span className="skills__level">Intermédiaire</span>
                    </div>
                 </div>
@@ -51,26 +52,25 @@ const Backend = () => {
                     <i className="bx bx-badge-check"></i>
 
                    <div>
-                   <h3 className="skills__name">PostgreSQL</h3>
+                   <h3 className="skills__name">ORM</h3>
                    <span className="skills__level">Intermédiaire</span>
                    </div>
                 </div>
 
-                <div className="skills__data">
+                {/* <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
 
                    <div>
                    <h3 className="skills__name">NestJS</h3>
                    <span className="skills__level">Intermediate</span>
                    </div>
-                </div>
+                </div> */}
 
                 
             </div>
         </div>
     </div>
-    
+        </>
     )
 }
-
-export default Backend
+export default Autre;

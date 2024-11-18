@@ -33,7 +33,8 @@
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
-    transition: .3s;
+    transition: 0.3s;
+    padding: 1rem 0.5rem; 
 }
 
 .nav__icon,
