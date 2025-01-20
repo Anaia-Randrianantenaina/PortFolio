@@ -35,6 +35,21 @@ const Qualification = () => {
                 <div className="qualification__sections">
                     {/* QUALIFICATION EDUCATION */}
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
+                        {/* QUALIFICATION DATA 0 */}
+                        <div className="qualification__data">
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 className="qualification__title">M1 en informatique(DAII)</h3>
+                                <span className="qualification__subtitle">EMIT Fianarantsoa</span>
+                                <div className="qualification__calender">
+                                    <i className='bx bx-calendar'></i> 2024 - 2025
+                                </div>
+                            </div>
+                        </div>
                          {/* QUALIFICATION DATA 1 */}
                         <div className="qualification__data">
                             <div>
@@ -108,7 +123,7 @@ const Qualification = () => {
                         {/* QUALIFICATION DATA 1 */}
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Développeur application web</h3>
+                                <h3 className="qualification__title">Designer UI/UX / Développeur application web</h3>
                                 <span className="qualification__subtitle">EMIT Fianarantsoa </span>
                                 <div className="qualification__calender">
                                     <i className='bx bx-calendar'></i> Juin 2024 - Présent

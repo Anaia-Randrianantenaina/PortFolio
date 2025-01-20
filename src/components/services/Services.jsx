@@ -150,71 +150,69 @@ const Services = () => {
                 </div>
 
 
-                 {/* PARTIE 3 */}
-                <div className="services__content">
-                      <i class='bx bxs-edit services__icon '></i>
-                    <h3 className="services_title">
-                     <br /> Backend
-                    </h3>
-             
+               {/* PARTIE 3 */}
+<div className="services__content">
+    <i class='bx bxs-paint services__icon '></i>
+    <h3 className="services_title">
+        <br /> UI/UX Designer
+    </h3>
 
-                    <span className="services__button" onClick={() => toogleTab(3)}>
-                    Voir plus <i class='bx bx-right-arrow-alt services__button-icon'></i>
-                </span>
+    <span className="services__button" onClick={() => toogleTab(3)}>
+        Voir plus <i class='bx bx-right-arrow-alt services__button-icon'></i>
+    </span>
 
-                <div className={toogleState === 3 ? "services__modal active-modal" : "services__modal"}>
+    <div className={toogleState === 3 ? "services__modal active-modal" : "services__modal"}>
 
-                   
-                    <div className="services__modal-content">
-                    <i className="bx bx-x services__modal-close" onClick={() => toogleTab(0)}></i>
+        <div className="services__modal-content">
+            <i className="bx bx-x services__modal-close" onClick={() => toogleTab(0)}></i>
 
-                        <h3 className="services__modal-title">
-                           Développeur Backend
-                        </h3>
-                        <p className="services__modal-description">
-                           En tant que développeur backend spécialisé en php et javascript, je conçois et mets en oeuvre des solutions serveur robuste et sécurisées,
-                           en assurant la gestion des bases de données, l'authentification des utilisateurs et l'intégration d'API
-                        </p>
+            <h3 className="services__modal-title">
+                UI/UX Designer
+            </h3>
+            <p className="services__modal-description">
+                En tant que designer UI/UX, je crée des expériences utilisateur optimales, avec un équilibre parfait entre esthétisme et fonctionnalité.
+            </p>
 
-                        <ul className="services__modal-services grid">
-                            <li className="services__modal-service">
-                            <i class='bx bx-check-circle services__modal-icon'></i>
-                            <p className="services__modal-info">
-                                Développement d'API
-                            </p>
-                            </li>
+            <ul className="services__modal-services grid">
+                <li className="services__modal-service">
+                    <i class='bx bx-check-circle services__modal-icon'></i>
+                    <p className="services__modal-info">
+                        Conception de maquettes et prototypes interactifs.
+                    </p>
+                </li>
 
-                            <li className="services__modal-service">
-                            <i class='bx bx-check-circle services__modal-icon'></i>
-                            <p className="services__modal-info">
-                                Gestion de bases de données
-                            </p>
-                            </li>
+                <li className="services__modal-service">
+                    <i class='bx bx-check-circle services__modal-icon'></i>
+                    <p className="services__modal-info">
+                        Analyse des besoins utilisateurs et optimisation des parcours.
+                    </p>
+                </li>
 
-                            <li className="services__modal-service">
-                            <i class='bx bx-check-circle services__modal-icon'></i>
-                            <p className="services__modal-info">
-                               Authentification et Sécurité
-                            </p>
-                            </li>
+                <li className="services__modal-service">
+                    <i class='bx bx-check-circle services__modal-icon'></i>
+                    <p className="services__modal-info">
+                        Création de designs responsives et adaptatifs.
+                    </p>
+                </li>
 
-                            <li className="services__modal-service">
-                            <i class='bx bx-check-circle services__modal-icon'></i>
-                            <p className="services__modal-info">
-                               Déploiement et Gestion des Versions
-                            </p>
-                            </li>
+                <li className="services__modal-service">
+                    <i class='bx bx-check-circle services__modal-icon'></i>
+                    <p className="services__modal-info">
+                        Design d'interfaces intuitives pour applications web et mobiles.
+                    </p>
+                </li>
 
-                            <li className="services__modal-service">
-                            <i class='bx bx-check-circle services__modal-icon'></i>
-                            <p className="services__modal-info">
-                               Test et Débogage
-                            </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                </div>
+                <li className="services__modal-service">
+                    <i class='bx bx-check-circle services__modal-icon'></i>
+                    <p className="services__modal-info">
+                        Respect des principes d'accessibilité et des standards modernes.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 
 
 

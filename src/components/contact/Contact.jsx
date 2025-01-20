@@ -42,7 +42,7 @@ const Contact = () => {
                     <i className="bx bxl-linkedin contact__card-icon"></i>
 
                     <h3 className="contact__card-title">LinkedIn</h3>
-                    <span className="contact__card-data">Anaia Randria</span>
+                    <span className="contact__card-data">Anaïa Randrianantenaina</span>
 
                     <a href="https://www.linkedin.com/search/results/all/?keywords=Anaia%20Randria" className="contact__button">Écris-moi 
                     <i class='bx bx-right-arrow-alt contact__button-icon'></i>
@@ -55,7 +55,7 @@ const Contact = () => {
 
             {/* CONTACT CONTENT */}
             <div className="contact__content">
-                <h3 className="contact__title">Écrivez-moi votre projet</h3>
+                <h3 className="contact__title">Écrivez-moi votre projet (pas encore fonctionnel)</h3>
 
                 <form action="" className="contact__form">
                     {/* FORM DIV */}

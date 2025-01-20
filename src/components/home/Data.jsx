@@ -5,10 +5,10 @@ const Data = () => {
        <div className="home__data">
         <h1 className="home__title">Anaïa Randrianantenaina </h1>
 
-        <h3 className="home__subtitle">--- Dévéloppeur ReactJS-PHP ---</h3>
-
+        <h3 className="home__subtitle">--- Désigner UI/UX & Développeur front-end ---</h3>
+     
         <p className="home__description">
-       Dévéloppeur Web PHP | React.js passionné et dévoué.
+        Désigner UI/UX & Développeur front-end passionné et dévoué.
         </p>
 
         <a href="#contact" className="button button--flex">
